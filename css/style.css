@@ -21,6 +21,7 @@ header, header ul{
 }
 header{
     position: fixed;
+    z-index:1;
     top:52px;
     max-width:1640px;
     width:100%;
@@ -148,11 +149,19 @@ header{
         margin-top:32.4px;
         min-width:245.92px;
         width:100%;
+        justify-content: center;
     }
     .article-box:last-child{
         display: none;
     }
     .popular h2{
         text-align: center;
+        font-size:30px;
+    }
+    .article-box h3{
+        font-size:20px;
+    }
+    .article-box p{
+        font-size:14px;
     }
 }
