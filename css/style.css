@@ -71,7 +71,7 @@ header{
 .article-box{
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
     max-width:483px;
-    margin-right:95.5px;
+    margin-right:5%;
     position: relative;
 }
 .article-box:last-child{
@@ -183,6 +183,11 @@ footer{
         display: none;
     }
 }
+@media(max-width:1366px){
+    .aricle-box{
+        transform: scale(0.8);
+    }
+}
 @media (max-width:1024px){
     .navbar, .slider1{
         display: none;
@@ -200,7 +205,6 @@ footer{
     .article-box{
         margin: 0 auto;
         margin-top:32.4px;
-        min-width:245.92px;
         width:100%;
         justify-content: center;
     }
